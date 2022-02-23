@@ -1,0 +1,79 @@
+body{
+  background-color: rgb(177, 235, 253);
+  height: auto;
+}
+footer{
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+
+  font-weight:bold;
+  margin-bottom: 5px;
+}
+nav {
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(55, 0, 255);
+   background-image: linear-gradient(to bottom, rgb(55, 0, 255), #93edfd);
+    color: #000;
+    
+  }
+  .navitems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .navitems h2 {
+    font-size: 50px;
+  }
+  .navitems button {
+    width: 30%;
+    height: 10vh;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background: rgb(69, 45, 136);
+    color: rgb(255, 235, 235);
+    font-family: serif;
+    font-size: 20px;
+    margin: auto 0px;
+  }
+  .fetchbtn:hover {
+    background-image: radial-gradient(rgb(100, 235, 212),rgb(72, 112, 245));
+    color: rgb(230, 36, 36);
+  }
+  .userdatacontainer {
+    width: 100%;
+    padding-top: 2%;
+    height :fit-content;
+    
+  }
+  #main {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+  }
+  .name:hover {
+    color: rgb(53, 39, 247);
+  }
+  .avatar {
+    border-radius: 55%;
+  }
+  .profile_cont {
+    border-radius: 20%;
+    background-color: rgb(99, 157, 245);
+    color: white;
+  
+    margin: 30px;
+    padding: 15px;
+    width: 25%;
+    text-align: center;
+    transition: transform ease 0.2s;
+    opacity: 0.8;
+    margin-top: 3vh;
+  }
+  .profile_cont:hover {
+    transform: scale(1.06);
+    opacity: 0.9;
+  }
